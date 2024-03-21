@@ -14,7 +14,7 @@ struct ChatRow: View {
     var body: some View {
         HStack {
             Image(systemName: chat.imageName)
-                .imageScale(.large)
+                .imageScale(.medium)
                 .foregroundStyle(.tint)
             
             VStack(alignment:.leading) {
