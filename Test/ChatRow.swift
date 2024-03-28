@@ -11,6 +11,7 @@ struct ChatRow: View {
     
     var chat: Chat
     // test
+    // This is test change to test branch and collaboration
     var body: some View {
         HStack {
             Image(systemName: chat.imageName)
