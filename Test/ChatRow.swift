@@ -10,7 +10,7 @@ import SwiftUI
 struct ChatRow: View {
     
     var chat: Chat
-    
+    // test
     var body: some View {
         HStack {
             Image(systemName: chat.imageName)
